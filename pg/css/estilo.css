@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Kaisei Opti', serif;
+}
+#container{
+    width: 100%;
+    height: 100vh;
+    background: #fff;
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+#navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 50px;
+    cursor: pointer;
+}
+nav{
+	display:inline-block;
+	margin-left:45%;
+	text-align:right;
+}
+nav ul 
+{
+	list-style:none;
+	margin:0;
+	padding:0;
+	text-align:center;
+}
+nav li {
+	list-style:none;
+	display:inline-block;
+}
+nav li a{
+	color: #000 !important;
+	display: inline-block;
+	padding:1rem;	
+	text-align:right;	
+	text-decoration: none;
+	transition: all 1s ease;
+	width:auto;	/* se adapta al contenido, es decir aun cuando el tamaño del texto sea largo se mantien igual en todas las cajitas. */
+	vertical-align:top;
+}
+#menu a:hover:not(#desplegar_menu){
+    color: #f2f2f2;
+    border-bottom:2px solid pink;
+}
+#menu #desplegar_menu{
+    display: none;
+}
+
+#row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+#col{
+    flex-basis: 50%;
+}
+h1{
+    color: #fff;
+    font-size: 80px;
+    font-family: 'Abril Fatface';
+}
+p{
+    color: rgb(0, 0, 0);
+    text-shadow: #42a59f;
+    font-size: 1rem;
+    line-height: 15px;
+}
+#imagen{
+    width: 50%;
+    position: relative;
+    
+}
+#imagen img{
+    width: 90%;
+}
+#carosel .carousel-item{
+    width: 90%;
+    height: 500px;
+    margin-left: 8%;
+    background-size: cover;
+}
+
+
+img{
+    background-size: cover;
+}
+h4 a{
+    color: #000;
+    text-shadow: #42a59f;
+    text-align: center;
+    text-decoration: none;
+    margin: 0 2rem auto;
+    margin-left: 15%;
+    display: inline-block;
+}
+h4{
+    color: #000;
+    text-shadow: #42a59f;
+    text-align: center;
+    margin: 0 2rem auto;
+    margin-left: 15%;
+    display: inline-block;
+}
+
+footer #fin a img{
+    width: 50px;
+    margin: 2rem auto;
+    padding-right: 20px;
+    cursor: pointer;
+    background-position: center;
+}

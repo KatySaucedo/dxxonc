@@ -1,0 +1,39 @@
+@media screen and (min-width:320px) and (max-width: 480px) {
+    body{
+        background-color: ffff;
+    }
+
+
+    #menu{
+        position: absolute;
+        background-color: #ffff;
+        top: -130px;
+        left: 0px;
+        width: 100%;
+        min-width: 320px;
+    }
+    #menu a{
+        display: block;
+        color: aqua;
+    }
+    #menu #desplegar_menu{
+        display: block;
+        padding: 0px;
+        border: 0px;
+        font: bold 2rem verdana sans-serif;
+    }
+    #menu:hover{
+        top: 0px;
+    }
+    #menu a:hover:not(#desplegar_menu){
+        border-color: #f1f1f1;
+        background-color: rgba(0, 0, 0, .5);
+    }
+    #menu{transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+}
+.cards #uno #dos #tres{
+    display: block;
+}
+
+    }
